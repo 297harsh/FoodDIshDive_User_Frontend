@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useContext, useEffect, useState } from 'react'
 import './PlaceOrder.css'
 import { StoreContext } from '../../Context/StoreContext'
@@ -130,17 +129,3 @@ const PlaceOrder = () => {
 }
 
 export default PlaceOrder
-=======
-import React from 'react'
-import "./PlaceOrder.css";
-
-const PlaceOrder = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default PlaceOrder
->>>>>>> deb05dc44213ea261777655f69f22b2d359fbf69

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../Context/StoreContext'
@@ -21,7 +20,7 @@ const Cart = () => {
           if (cartItems[item._id]>0) {
             return (<div key={index}>
               <div className="cart-items-title cart-items-item">
-                <img src={url+"/images/"+item.image} alt="" />
+                <img src={item.image} alt="" />
                 <p>{item.name}</p>
                 <p>{currency}{item.price}</p>
                 <div>{cartItems[item._id]}</div>
@@ -32,6 +31,7 @@ const Cart = () => {
             </div>)
           }
         })}
+        
       </div>
       <div className="cart-bottom">
         <div className="cart-total">
@@ -60,17 +60,3 @@ const Cart = () => {
 }
 
 export default Cart
-=======
-import React from 'react'
-import "./Cart.css";
-
-const Cart = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Cart
->>>>>>> deb05dc44213ea261777655f69f22b2d359fbf69
